@@ -1,3 +1,7 @@
+# NOTE: We could not add node_modules for now, but we will do it later. So be careful when you clone the project.
+# Happy New Year
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
