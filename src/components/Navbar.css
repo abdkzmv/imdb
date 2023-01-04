@@ -1,22 +1,23 @@
-* {
+body {
     margin: 0 0;
-    text-align: center;
 }
+
 nav {
     background-color: black;
     padding: 15px 20px;
-  }
+    margin: 0 0;
+    text-align: center;
+}
   
-  nav > a {
+nav > a {
     color: white;
     margin: 0;
     padding: 15px 20px;
-  }
+}
   
-  nav > a.active {
+nav > a.active {
     color: black;
     background-color: azure;
     text-decoration: none;
     font-size: 1.1rem;
-  }
-  
+}

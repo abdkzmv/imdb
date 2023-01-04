@@ -1,0 +1,50 @@
+.home-main {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .home-main .container-main {
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+  }
+  .home-main .main-top {
+    text-align: center;
+  }
+  .home-main .main-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .home-main .main-bottom .bottom-sections {
+    width: 33%;
+  }
+  .home-main .main-bottom .bottom-sections .sections-head {
+    text-align: center;
+  }
+  .home-main .main-bottom .bottom-sections ul li {
+    padding-bottom: 10px;
+    list-style-type: square;
+  }
+  .home-main .main-bottom .bottom-sections ul li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 1.2em;
+  }
+  .home-main .main-bottom .bottom-sections ul li a:after {
+    position: absolute;
+    content: " ";
+    height: 1px;
+    width: 0;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .home-main .main-bottom .bottom-sections ul li a:hover::after {
+    width: 100%;
+  }
+  
+  body {
+    color: white;
+  }

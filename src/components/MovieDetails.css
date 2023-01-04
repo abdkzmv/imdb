@@ -1,0 +1,94 @@
+.specific-main {
+  padding-top: 50px;
+}
+.specific-main .container-specific {
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgb(204, 204, 204);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .specific-main .specific-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .specific-main .specific-top .top-left .top-left-bottom {
+    display: flex;
+  }
+  .specific-main .specific-top .top-left .top-left-bottom p {
+    padding: 0 8px;
+  }
+  .specific-main .specific-top .top-right {
+    display: flex;
+    padding-top: 10px;
+  }
+  .specific-main .specific-top .top-right p {
+    text-align: center;
+    padding-right: 15px;
+  }
+  .specific-main .specific-center {
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+  }
+  .specific-main .specific-center .center-left {
+    width: 30%;
+  }
+  .specific-main .specific-center .center-left img {
+    width: 250px;
+    height: 250px;
+  }
+  .specific-main .specific-center .center-right {
+    width: 70%;
+  }
+  .specific-main .specific-center .center-right .center-right-top {
+    display: flex;
+  }
+  .specific-main .specific-center .center-right .center-right-top p {
+    padding-right: 20px;
+  }
+  .specific-main .specific-center .center-right .center-right-center span.overview-big {
+    font-size: 1.7em;
+  }
+  .specific-main .specific-center .center-right .center-right-bottom {
+    text-align: center;
+    width: 100%;
+  }
+  .specific-main .specific-center .center-right .center-right-bottom .stars-head {
+    width: 100%;
+  }
+  .specific-main .specific-center .center-right .center-right-bottom p {
+    font-size: 1.5em;
+    display: block;
+  }
+  .specific-main .specific-center .center-right .center-right-bottom .stars {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .specific-main .specific-center .center-right .center-right-bottom .stars .star {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  .specific-main .specific-center .center-right .center-right-bottom .stars .star:hover {
+    background-color: rgb(204, 204, 204);
+    color: black;
+  }
+  
+  body {
+    color: white;
+    background-color: #1a191f;
+  }
+
+#back-to-movies {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#loading-heading {
+  text-align: center;
+  padding-top: 30px;
+}

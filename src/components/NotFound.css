@@ -1,0 +1,164 @@
+body {
+    color: white;
+  }
+  
+  .specific-main .container-specific {
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgb(204, 204, 204);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .specific-main .specific-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .specific-main .specific-top .top-left .top-left-bottom {
+    display: flex;
+  }
+  .specific-main .specific-top .top-left .top-left-bottom p {
+    padding: 0 8px;
+  }
+  .specific-main .specific-top .top-right {
+    display: flex;
+    padding-top: 10px;
+  }
+  .specific-main .specific-top .top-right p {
+    text-align: center;
+    padding-right: 15px;
+  }
+  .specific-main .specific-center {
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+  }
+  .specific-main .specific-center .center-left {
+    width: 30%;
+  }
+  .specific-main .specific-center .center-left img {
+    width: 250px;
+    height: 250px;
+  }
+  .specific-main .specific-center .center-right {
+    width: 70%;
+  }
+  .specific-main .specific-center .center-right .center-right-top {
+    display: flex;
+  }
+  .specific-main .specific-center .center-right .center-right-top p {
+    padding-right: 20px;
+  }
+  .specific-main .specific-center .center-right .center-right-center {
+    font-size: 1.7em;
+  }
+  .specific-main .specific-center .center-right .center-right-bottom {
+    text-align: center;
+    width: 100%;
+  }
+  .specific-main .specific-center .center-right .center-right-bottom .stars-head {
+    width: 100%;
+  }
+  .specific-main .specific-center .center-right .center-right-bottom p {
+    font-size: 1.5em;
+    display: block;
+  }
+  .specific-main .specific-center .center-right .center-right-bottom .stars {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .specific-main .specific-center .center-right .center-right-bottom .stars .star {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  .specific-main .specific-center .center-right .center-right-bottom .stars .star:hover {
+    background-color: rgb(204, 204, 204);
+    color: black;
+  }
+  
+  #movies-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #movies-main #main-inside {
+    width: 50%;
+    color: white;
+    background-color: #222028;
+  }
+  #movies-main #main-inside #inside-movie {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  #movies-main #main-inside #inside-movie #inside-left .left-poster {
+    position: relative;
+    overflow: hidden;
+  }
+  #movies-main #main-inside #inside-movie #inside-left .left-poster img {
+    width: 100px;
+    height: 150px;
+  }
+  #movies-main #main-inside #inside-movie #inside-left .left-poster .left-rating {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(26, 25, 31, 0.6);
+    border: 1px solid #29b474;
+    border-radius: 50%;
+  }
+  #movies-main #main-inside #inside-movie #inside-right {
+    padding: 0 15px;
+  }
+  #movies-main #main-inside #inside-movie #inside-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+  }
+  #movies-main #main-inside #inside-movie #inside-right .right-parts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-main {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .contact-main .container-contact {
+    width: 30%;
+    height: 50vh;
+    margin: auto;
+    background-color: rgb(204, 204, 204);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-main .container-contact .my-input, .contact-main .container-contact .my-text {
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #1a191f;
+    padding: 5px 15px;
+    width: 200px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    resize: none;
+  }
+  .contact-main .container-contact .submit-input {
+    border: 1px solid #1a191f;
+    padding: 5px 15px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  body {
+    background-color: #1a191f;
+  }

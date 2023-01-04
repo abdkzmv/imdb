@@ -1,0 +1,35 @@
+
+.contact-main {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .contact-main .container-contact {
+    width: 30%;
+    height: 50vh;
+    margin: auto;
+    background-color: rgb(204, 204, 204);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-main .container-contact .my-input, .contact-main .container-contact .my-text {
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #1a191f;
+    padding: 5px 15px;
+    min-width: 200px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    resize: none;
+  }
+  .contact-main .container-contact .submit-input {
+    border: 1px solid #1a191f;
+    padding: 5px 15px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  body {
+    background-color: #1a191f;
+  }
