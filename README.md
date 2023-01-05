@@ -3,14 +3,14 @@
 <h2>&copy; Software Chasers team from "Web & Mobile I" course</h2>
 <hr>
 <h1>Guide</h1>
-## 1. Install node_modules
+<h3> 1. Install node_modules </h3>
 
 <code>npm install node-modules</code>
 
-## 2. Enable json-server:
+<h3> 2. Enable json-server: </h3>
 
 <code>json-server --watch database.json --port 3004</code>
 
-## 3. Run application:
+<h3> 3. Run application: </h3>
 
 <code>npm start</code>
