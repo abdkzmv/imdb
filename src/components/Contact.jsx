@@ -4,11 +4,11 @@ import "./Contact.css";
 export default function Contact() {
     return (
         <div className="contact-main">
-            <h2>Write us</h2>
+            <h2>Write us 📝</h2>
             <div className="container-contact">
                 <div className="contact-inputs">
-                    <form action="https://formspree.io/f/xvoyqpqd" method="post">
-                        <input type="text" name="name" placeholder="Subject" id="subject-input" className="my-input" />
+                    <form action="http://localhost:3004/messages" method="post">
+                        <input type="text" name="subject" placeholder="Subject" id="subject-input" className="my-input" />
                         <br />
                         <input type="text" name="email" placeholder="Email" id="email-input" className="my-input" />
                         <br />

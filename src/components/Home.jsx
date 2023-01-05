@@ -6,8 +6,8 @@ export default function Home() {
         <div class="home-main">
         <div class="container-main">
             <div class="main-top">
-                <h1>"Web & Mobile I" course</h1>
-                <h2>Team 18</h2>
+                <h2>"Web & Mobile I" course</h2>
+                <h1>👨🏻‍💻 Software Chasers (Team 18)</h1>
             </div>
             <div class="main-bottom">
                 <div class="bottom-sections">
@@ -45,6 +45,8 @@ export default function Home() {
         <br />
         <div class="source-code">
                     <a href="https://github.com/abdkzmv/imdb" target="_blank">👉 Click here to see source code 👈</a>
+                    <br /> <br />
+                    <a href="https://github.com/abdkzmv/imdb" target="_blank">🍿 Watch our YouTube video 🍿</a>
         </div>
     </div>
     );

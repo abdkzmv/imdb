@@ -5,8 +5,8 @@ import "./Movie.css";
 function shortenOverview(Props) {
     Props.movies.map((movie, id) => {
         let txt = movie.Overview;
-        if (txt.length > 100) {
-            Props.movies[id].Overview = txt.substr(0, 100) + "...";
+        if (txt.length > 110) {
+            Props.movies[id].Overview = txt.substr(0, 110) + "...";
         }
     })
 }
@@ -49,7 +49,7 @@ export default function Movie(props) {
                                 </div>
                             </div>
                             <span>
-                                {movie.Overview} <a id="read-more" href={`http://localhost:3000/movies/${movie.id}`}><u>read more</u></a>
+                                {movie.Overview} <a id="learn-more" href={`http://localhost:3000/movies/${movie.id}`}><u>learn more</u></a>
                             </span>
                         </div>
                     </div>

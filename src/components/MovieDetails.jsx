@@ -37,19 +37,19 @@ export default function MovieDetails() {
 
                     <div class="top-right">
                         <p class="rating-p">
-                            IMDB Rating: <br/> {movie.IMDB_Rating}
+                            📊 IMDB Rating: <br/> {movie.IMDB_Rating}
                         </p>
 
                         <p class="metascore-p">
-                            Metascore: <br/> {movie.Meta_score}
+                            💡 Metascore: <br/> {movie.Meta_score}
                         </p>
 
                         <p class="votes-p">
-                            Number of Votes: <br/> {movie.No_of_Votes}
+                            ⬆️ Number of Votes: <br/> {movie.No_of_Votes}
                         </p>
 
                         <p class="gross-p">
-                                    Gross: <br /> {movie.Gross}
+                            💰 Gross: <br /> {movie.Gross} 💲
                         </p>
                     </div>
                 </div>
@@ -63,10 +63,10 @@ export default function MovieDetails() {
                     <div class="center-right">
                         <div class="center-right-top">
                             <p class="genre-p">
-                                Genre: {movie.Genre}
+                                📑 Genre: {movie.Genre}
                             </p>
                             <p class="director-p">
-                                Director: {movie.Director}
+                                📽️ Director: {movie.Director}
                             </p>
                         </div>
                         <div class="center-right-center">
@@ -76,7 +76,7 @@ export default function MovieDetails() {
                         </div>
                         <div class="center-right-bottom">
                             <div class="stars-head">
-                                <p class="stars-p">Stars:</p>
+                                <p class="stars-p">⭐️ Stars ⭐️</p>
                             </div>
                             <div class="stars">
                                 <div class="star"> <p>{movie.Star1}
@@ -91,6 +91,9 @@ export default function MovieDetails() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div id="back-to-movies">
+                <button onClick={() => {window.location.href="http://localhost:3000/movies"}}>⬅️ Back</button>
             </div>
             </div>
             </>) : (<h2 id="loading-heading">Loading...</h2>)
