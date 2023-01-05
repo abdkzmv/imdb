@@ -46,7 +46,7 @@ export default function Home() {
         <div class="source-code">
                     <a href="https://github.com/abdkzmv/imdb" target="_blank">👉 Click here to see source code 👈</a>
                     <br /> <br />
-                    <a href="https://github.com/abdkzmv/imdb" target="_blank">🍿 Watch our YouTube video 🍿</a>
+                    <a href="https://youtu.be/dIf1Ydi4FZk" target="_blank">🍿 Watch our YouTube video 🍿</a>
         </div>
     </div>
     );
