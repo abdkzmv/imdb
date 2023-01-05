@@ -5,8 +5,8 @@ import "./Movies.css";
 
 export default function Movies() {
 
-    const [movies, setMoviesData] = useState(null);
     const [pageId, setPageId] = useState(1);
+    const [movies, setMovies] = useState(null);
     
     function toTop(){
         document.body.scrollTop = 0;
@@ -15,14 +15,14 @@ export default function Movies() {
 
     function previousPage() {
         toTop();
-        if (pageId >= 1) {
+        if (pageId > 1) {
             setPageId(pageId - 1);
         }
     }
 
     function nextPage() {
         toTop();
-        if (pageId <= 100) {
+        if (pageId < 100) {
             setPageId(pageId + 1);
         }
     }
@@ -32,20 +32,21 @@ export default function Movies() {
         fetch(jsonURL)
         .then((res) => res.json())
         .then((data) => {
-            setMoviesData(data);
+            setMovies(data);
         });
     }, [previousPage, nextPage]);
 
     return (
         movies ? (
             <>
+                <h2>Page {pageId}</h2>
                 <Movie movies={movies} />
                 <nav>
                     <ul className="pagination">
                         <li className="page-item">
                             <button id = "prev" className="page-link" aria-label="Previous" onClick={previousPage}>
                                 <span aria-hidden="true">⬅️</span>
-                                <span className="sr-only"> Previous</span>
+                                <span className="sr-only"> Back</span>
                             </button>
                         </li>
                         <li>

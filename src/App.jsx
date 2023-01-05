@@ -5,8 +5,8 @@ import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Movies from './components/Movies';
 import Navbar from "./components/Navbar";
-import './App.css';
 import MovieDetails from './components/MovieDetails';
+import './App.css';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
                 <Route path="/" element=<Home /> />
                 <Route path="/movies" element=<Movies /> />
                 <Route path="/movies?page=:pageNum" element=<Movies /> />
-                <Route path="/movies/:movieId" element=<MovieDetails /> />
+                <Route path="/movies/:movieInd" element=<MovieDetails /> />
                 <Route path="/contact" element=<Contact /> />
                 <Route path="/*" element=<NotFound /> />
             </Routes>

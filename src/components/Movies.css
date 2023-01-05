@@ -1,27 +1,26 @@
 
 #movies-main {
-    padding-top: 25px;
     width: 100%;
     display: flex;
     justify-content: center;
-  }
-  #movies-main #main-inside {
+}
+#movies-main #main-inside {
     width: 50%;
     color: white;
     background-color: #222028;
-  }
-  #movies-main #main-inside #inside-movie {
+}
+#movies-main #main-inside #inside-movie {
     display: flex;
-  }
-  #movies-main #main-inside #inside-movie #inside-left .left-poster {
+}
+#movies-main #main-inside #inside-movie #inside-left .left-poster {
     position: relative;
     overflow: hidden;
-  }
-  #movies-main #main-inside #inside-movie #inside-left .left-poster img {
+}
+#movies-main #main-inside #inside-movie #inside-left .left-poster img {
     width: 100px;
     height: 150px;
-  }
-  #movies-main #main-inside #inside-movie #inside-left .left-poster .left-rating {
+}
+#movies-main #main-inside #inside-movie #inside-left .left-poster .left-rating {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -33,33 +32,62 @@
     background-color: rgba(26, 25, 31, 0.6);
     border: 1px solid #29b474;
     border-radius: 50%;
-  }
-  #movies-main #main-inside #inside-movie #inside-right {
-    padding: 0 15px;
-  }
-  #movies-main #main-inside #inside-movie #inside-right a {
+}
+#movies-main #main-inside #inside-movie #inside-right {
+    padding: 0 25px;
+}
+#movies-main #main-inside #inside-movie #inside-right a {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
-  }
-  #movies-main #main-inside #inside-movie #inside-right .right-parts {
+}
+#movies-main #main-inside #inside-movie #inside-right .right-parts {
     width: 100%;
     display: flex;
     justify-content: space-between;
-  }
+}
 
-  body {
+body {
     background-color: #1a191f;
-  }
+}
 
-  .pagination {
+.pagination {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
+}
+
+button {
+  transition: 0.2s;
+  width: 100px;
+  height: 40px;
+  margin-right: 30px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  border-color: white;
+  border-style: solid;
+  transition: 0.2s;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+  border-color: grey;
+  transition: 0.2s;
+}
+
+button:active {
+  transition: 0.2s;
+  font-size: 1.1rem;
+}
 
 #loading-heading {
   text-align: center;
   padding-top: 30px;
+}
+
+h2 {
+  text-align: center;
 }

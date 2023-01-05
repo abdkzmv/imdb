@@ -6,7 +6,7 @@ export default function Home() {
         <div class="home-main">
         <div class="container-main">
             <div class="main-top">
-                <h1>Web & Mobile I course</h1>
+                <h1>"Web & Mobile I" course</h1>
                 <h2>Team 18</h2>
             </div>
             <div class="main-bottom">
@@ -26,6 +26,7 @@ export default function Home() {
                     </div>
                     <ul>
                         <li><a href="https://abdkzmv.github.io" target="_blank">Personal Website</a></li>
+                        <li><a href="https://abdkzmv.github.io/bcard.html" target="_blank">Personal Card</a></li>
                         <li><a href="https://abdkzmv.github.io/weather-teller-app/" target="_blank">Weather Teller App</a></li>
                     </ul>
                 </div>
@@ -40,6 +41,10 @@ export default function Home() {
                     </ul>
                 </div>
             </div>
+        </div>
+        <br />
+        <div class="source-code">
+                    <a href="https://github.com/abdkzmv/imdb" target="_blank">👉 Click here to see source code 👈</a>
         </div>
     </div>
     );
