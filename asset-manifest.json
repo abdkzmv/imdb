@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/imdb/static/css/main.073a411e.css",
+    "main.js": "/imdb/static/js/main.179dbe61.js",
+    "index.html": "/imdb/index.html",
+    "main.073a411e.css.map": "/imdb/static/css/main.073a411e.css.map",
+    "main.179dbe61.js.map": "/imdb/static/js/main.179dbe61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073a411e.css",
+    "static/js/main.179dbe61.js"
+  ]
+}
